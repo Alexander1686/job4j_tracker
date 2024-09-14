@@ -31,3 +31,4 @@ public class JSONReportTest {
         assertThat(result).isEqualTo(expected);
     }
 }
+// формальная правка для задания 7. Аннотация @Override [#174891]

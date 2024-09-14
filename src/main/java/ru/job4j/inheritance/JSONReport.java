@@ -13,3 +13,4 @@ public class JSONReport extends TextReport {
         System.out.println(jSONReport.generate("David Gilmour", "Shine On You Crazy Diamond"));
     }
 }
+// формальная правка для задания 7. Аннотация @Override [#174891]
