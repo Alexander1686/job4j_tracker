@@ -8,6 +8,7 @@ public class Cat {
         this.name = nick;
 
     }
+
     private String food;
 
     public void eat(String meat) {

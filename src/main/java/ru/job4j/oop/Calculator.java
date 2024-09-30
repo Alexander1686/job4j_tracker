@@ -20,7 +20,7 @@ public class Calculator {
         return x / a;
     }
 
-    public int sumAllOperation(int y,int a) {
+    public int sumAllOperation(int y, int a) {
         int s = sum(y);
         int m = minus(y);
         int mu = multiply(a);
@@ -29,7 +29,7 @@ public class Calculator {
         return result;
     }
 
-        public static void main (String[]args){
+        public static void main(String[]args) {
             int result = Calculator.sum(10);
             System.out.println(result);
             int result2 = Calculator.minus(10);
