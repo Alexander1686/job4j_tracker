@@ -1,23 +1,25 @@
-package ru.job4j.Checkstyle;
+package ru.job4j.сheckstyle;
 
 public class Broken {
-    private int sizeOfEmpty = 10;
-    public String surname;
     public static final String NEW_VALUE = "";
 
-    void echo() {
+    private int sizeOfEmpty = 10;
+
+    private String surname;
+
+    private String name;
+
+    public Broken() {
     }
 
-    void media(Object obj) {
+    public void echo() {
+    }
+
+    public void media(Object obj) {
         if (obj != null) {
             System.out.println(obj);
         } else {
             System.out.println("Object is null");
         }
-    }
-
-    String name;
-
-    Broken() {
     }
 }
