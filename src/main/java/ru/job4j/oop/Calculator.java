@@ -9,7 +9,7 @@ public class Calculator {
     }
 
     public static int minus(int y) {
-        return x - y;
+        return y - x;
     }
 
     public int multiply(int a) {
@@ -17,16 +17,11 @@ public class Calculator {
     }
 
     public int divide(int a) {
-        return x / a;
+        return a / x;
     }
 
     public int sumAllOperation(int y, int a) {
-        int s = sum(y);
-        int m = minus(y);
-        int mu = multiply(a);
-        int d = divide(a);
-        int result = s + m + mu + d;
-        return result;
+        return sum(y) + minus(y) + multiply(a) + divide(a);
     }
 
         public static void main(String[]args) {
