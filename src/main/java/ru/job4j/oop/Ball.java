@@ -2,12 +2,13 @@ package ru.job4j.oop;
 
 public class Ball {
 
-    public void tryRun(boolean condition) {
-
+    public boolean tryRun(boolean condition) {
         if (condition) {
             System.out.println("escape sucsessfull");
-        } else if (condition == false) {
+            return true;
+        } else {
             System.out.println("ball is consumed");
+            return false;
         }
     }
 }
