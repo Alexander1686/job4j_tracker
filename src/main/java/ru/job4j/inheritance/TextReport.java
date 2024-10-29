@@ -5,4 +5,3 @@ public class TextReport {
         return name + System.lineSeparator() + body;
     }
 }
-// формальная правка для задания 7. Аннотация @Override [#174891]
